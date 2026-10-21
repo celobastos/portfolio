@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de Marcelo Vinícius Bastos Santos — ingénieur logiciel spécialisé en systèmes distribués, cloud et intelligence artificielle.">
+    <meta name="theme-color" content="#07101f">
+    <meta property="og:title" content="MarceloOS — Portfolio de Marcelo Vinícius">
+    <meta property="og:description" content="Systèmes distribués, cloud et IA appliquée. Disponible pour un stage à partir de mai–juin 2027.">
+    <meta property="og:type" content="website">
+    <title>MarceloOS — Marcelo Vinícius Bastos Santos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="content.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skipLink">Aller au contenu</a>
+    <header class="topbar">
+      <a class="identity" href="#main" data-open-file="profile" aria-label="MarceloOS, ouvrir le profil">
+        <span class="status-orb" aria-hidden="true"></span>
+        <span><strong>marcelo.os</strong><small>v2.6.0-stable</small></span>
+      </a>
+      <div class="clock" aria-label="Heure locale"><span aria-hidden="true">◷</span><span><strong id="clock-time">--:--:--</strong><small id="clock-zone">LOCAL</small></span></div>
+      <div class="header-dock" aria-label="Choisir l’expérience et contacter Marcelo">
+        <div class="mode-tabs" role="tablist" aria-label="Mode d’affichage">
+          <button class="mode-tab is-active" id="tab-os" type="button" role="tab" aria-selected="true" aria-controls="os-view" data-view="os"><span aria-hidden="true">▣</span> marcelo.os (v2.6)</button>
+          <button class="mode-tab" id="tab-web" type="button" role="tab" aria-selected="false" aria-controls="web-view" data-view="web"><span aria-hidden="true">▤</span> <span data-i18n="webEdition">Édition web 2026</span></button>
+        </div>
+        <div class="quick-actions">
+          <a href="mailto:marceloviniciusbs17@gmail.com"><span aria-hidden="true">✉</span> marceloviniciusbs17@gmail.com</a>
+          <a class="cv-action cv-request-link" href="mailto:marceloviniciusbs17@gmail.com?subject=Demande%20de%20CV"><span aria-hidden="true">⇩</span> <span data-i18n="requestCv">Demander le CV</span></a>
+        </div>
+      </div>
+      <div class="top-actions">
+        <button class="icon-action language-action" id="language-button" type="button" aria-label="Switch to English"><span aria-hidden="true">◎</span><small id="language-code">EN</small></button>
+        <a class="icon-action" href="https://github.com/celobastos" target="_blank" rel="noreferrer" aria-label="Ouvrir GitHub dans un nouvel onglet">&lt;/&gt;</a>
+        <button class="icon-action" id="share-button" type="button" aria-label="Partager ce portfolio">⌯</button>
+        <div class="profile-menu-wrap">
+          <button class="icon-action profile-action" id="profile-menu-button" type="button" aria-label="Ouvrir le menu de Marcelo" aria-expanded="false" aria-controls="profile-menu">MV</button>
+          <div class="profile-menu" id="profile-menu" hidden>
+            <div class="profile-menu-head"><span class="profile-avatar" aria-hidden="true">MV</span><span><strong>Marcelo Vinícius</strong><small data-i18n="softwareEngineer">Ingénieur logiciel</small></span></div>
+            <a href="mailto:marceloviniciusbs17@gmail.com"><span>✉</span><span><strong>E-mail</strong><small data-i18n="writeMarcelo">Écrire à Marcelo</small></span><b>↗</b></a>
+            <a href="https://github.com/celobastos" target="_blank" rel="noreferrer"><span>&lt;/&gt;</span><span><strong>GitHub</strong><small>github.com/celobastos</small></span><b>↗</b></a>
+            <a href="https://www.linkedin.com/in/marcelo-vinicius-bastos" target="_blank" rel="noreferrer"><span>in</span><span><strong>LinkedIn</strong><small data-i18n="professionalProfile">Profil professionnel</small></span><b>↗</b></a>
+            <a class="cv-request-link" href="mailto:marceloviniciusbs17@gmail.com?subject=Demande%20de%20CV"><span>⇩</span><span><strong>Curriculum vitæ</strong><small data-i18n="requestPdf">Demander le PDF</small></span><b>↗</b></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <section class="os-view is-active" id="os-view" role="tabpanel" aria-labelledby="tab-os">
+        <div class="desktop-shell">
+          <div class="telemetry" aria-label="Informations du profil">
+            <span><i aria-hidden="true"></i> STATION: ALÈS-FR-NODE-01 <b>·</b> KERNEL: SYSTEMS + IA</span>
+            <span><span data-i18n="availabilityLabel">DISPONIBILITÉ</span>: <strong data-i18n="availabilityShort">MAI–JUIN 2027</strong></span>
+          </div>
+          <div class="desktop-stage">
+            <div class="file-grid" id="file-grid" aria-label="Explorer le portfolio"></div>
+            <div class="window-layer" id="window-layer" aria-label="Fenêtres ouvertes" aria-live="polite"></div>
+          </div>
+          <div class="desktop-hint">
+            <span><b aria-hidden="true">▣</b> <span data-i18n="selectFile">Sélectionnez un fichier pour explorer</span></span>
+            <span class="desktop-socials"><a href="https://github.com/celobastos" target="_blank" rel="noreferrer">&lt;/&gt; github.com/celobastos</a><b>·</b><a href="https://www.linkedin.com/in/marcelo-vinicius-bastos" target="_blank" rel="noreferrer">⌯ linkedin</a></span>
+          </div>
+        </div>
+      </section>
+      <section class="web-view" id="web-view" role="tabpanel" aria-labelledby="tab-web" hidden>
+        <div class="web-hero section-shell">
+          <div><p class="web-eyebrow"><span aria-hidden="true"></span> <span data-i18n="heroEyebrow">Disponible pour un stage · mai–juin 2027</span></p><h1 data-i18n-html="heroTitle">Des systèmes robustes.<br><em>Des résultats mesurables.</em></h1></div>
+          <div class="web-intro"><p data-i18n="heroIntro">Ingénieur logiciel franco-brésilien en double cursus à IMT Mines Alès et à l’UFPE, spécialisé en systèmes distribués, cloud et intelligence artificielle appliquée.</p><div class="hero-links"><a class="primary-link" href="#experience" data-i18n="viewExperience">Voir l’expérience ↓</a><a href="mailto:marceloviniciusbs17@gmail.com" data-i18n="contactMe">Me contacter ↗</a></div></div>
+        </div>
+        <div class="impact-band" id="impact-band" aria-label="Résultats clés"></div>
+        <section class="web-section section-shell" id="experience">
+          <header class="section-heading"><p data-i18n="experienceIndex">01 / Expérience</p><h2 data-i18n="experienceHeading">Du code à l’impact.</h2><span data-i18n="experienceDescription">Trois secteurs, une même méthode : comprendre le système, simplifier son architecture et mesurer le résultat.</span></header>
+          <div class="experience-list" id="experience-list"></div>
+        </section>
+        <section class="web-section dark-section" id="expertise">
+          <div class="section-shell"><header class="section-heading"><p data-i18n="expertiseIndex">02 / Expertise</p><h2 data-i18n="expertiseHeading">Une vision de bout en bout.</h2><span data-i18n="expertiseDescription">De la donnée au déploiement, des choix simples à expliquer et robustes en production.</span></header><div class="expertise-grid" id="expertise-grid"></div></div>
+        </section>
+        <section class="web-section section-shell" id="formation">
+          <header class="section-heading"><p data-i18n="educationIndex">03 / Formation</p><h2 data-i18n="educationHeading">Deux écoles, une trajectoire.</h2><span data-i18n="educationDescription">Une formation internationale entre le Brésil et la France, à la croisée des systèmes et de l’IA.</span></header>
+          <div class="education-grid" id="education-grid"></div>
+        </section>
+        <section class="contact-section section-shell" id="contact">
+          <p data-i18n="contactIndex">04 / Contact</p><h2 data-i18n-html="contactHeading">Un système complexe<br>à rendre simple&nbsp;?</h2><div class="contact-bottom"><p data-i18n="contactDescription">Je recherche un stage de 13 à 17 semaines à partir de mai–juin 2027, en France ou à distance.</p><a href="mailto:marceloviniciusbs17@gmail.com" data-i18n="writeMarceloArrow">Écrire à Marcelo ↗</a></div>
+        </section>
+      </section>
+    </main>
+    <footer class="statusbar"><span><i aria-hidden="true"></i> <span data-i18n="portfolioOnline">PORTFOLIO EN LIGNE</span> <b>·</b> Marcelo Vinícius Bastos Santos</span><span>ALÈS, FRANCE <b>·</b> © <span id="year">2026</span></span></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <noscript><p class="noscript">Activez JavaScript pour explorer les fichiers du portfolio.</p></noscript>
+  </body>
+</html>
