@@ -210,7 +210,9 @@
     $("#language-code").textContent = locale === "fr" ? "EN" : "FR";
 
     $$(".cv-request-link").forEach((link) => {
-      link.href = `mailto:${data.profile.email}?subject=${encodeURIComponent(data.ui.cvSubject)}`;
+      const fileName = `marcelo-bastos-cv-${locale}.pdf`;
+      link.href = `assets/cv/${fileName}`;
+      link.download = fileName;
     });
   };
 

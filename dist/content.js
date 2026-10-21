@@ -3,8 +3,8 @@ window.PORTFOLIO = {
     ui: {
       documentTitle: "MarceloOS — Marcelo Vinícius Bastos Santos",
       metaDescription: "Portfolio de Marcelo Vinícius Bastos Santos — ingénieur logiciel spécialisé en systèmes distribués, cloud et intelligence artificielle.",
-      skipLink: "Aller au contenu", webEdition: "Édition web 2026", requestCv: "Demander le CV", cvSubject: "Demande de CV",
-      softwareEngineer: "Ingénieur logiciel", writeMarcelo: "Écrire à Marcelo", professionalProfile: "Profil professionnel", requestPdf: "Demander le PDF",
+      skipLink: "Aller au contenu", webEdition: "Édition web 2026", requestCv: "Télécharger le CV", cvSubject: "Demande de CV",
+      softwareEngineer: "Ingénieur logiciel", writeMarcelo: "Écrire à Marcelo", professionalProfile: "Profil professionnel", requestPdf: "Télécharger le PDF",
       availabilityLabel: "DISPONIBILITÉ", availabilityShort: "MAI–JUIN 2027", selectFile: "Sélectionnez un fichier pour explorer",
       heroEyebrow: "Disponible pour un stage · mai–juin 2027", heroTitle: "Des systèmes robustes.<br><em>Des résultats mesurables.</em>",
       heroIntro: "Ingénieur logiciel franco-brésilien en double cursus à IMT Mines Alès et à l’UFPE, spécialisé en systèmes distribués, cloud et intelligence artificielle appliquée.",
@@ -62,8 +62,8 @@ window.PORTFOLIO = {
     ui: {
       documentTitle: "MarceloOS — Marcelo Vinícius Bastos Santos",
       metaDescription: "Portfolio of Marcelo Vinícius Bastos Santos — software engineer specializing in distributed systems, cloud, and artificial intelligence.",
-      skipLink: "Skip to content", webEdition: "2026 web edition", requestCv: "Request résumé", cvSubject: "Résumé request",
-      softwareEngineer: "Software engineer", writeMarcelo: "Write to Marcelo", professionalProfile: "Professional profile", requestPdf: "Request the PDF",
+      skipLink: "Skip to content", webEdition: "2026 web edition", requestCv: "Download résumé", cvSubject: "Résumé request",
+      softwareEngineer: "Software engineer", writeMarcelo: "Write to Marcelo", professionalProfile: "Professional profile", requestPdf: "Download PDF",
       availabilityLabel: "AVAILABILITY", availabilityShort: "MAY–JUNE 2027", selectFile: "Select a file to explore",
       heroEyebrow: "Available for an internship · May–June 2027", heroTitle: "Robust systems.<br><em>Measurable results.</em>",
       heroIntro: "French-Brazilian software engineer completing a dual degree at IMT Mines Alès and UFPE, specializing in distributed systems, cloud, and applied artificial intelligence.",

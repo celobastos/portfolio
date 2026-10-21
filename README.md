@@ -22,4 +22,5 @@ Abra `http://localhost:4173`.
 - `dist/styles.css`: identidade visual, responsividade e acessibilidade
 - `dist/content.js`: conteúdo pessoal compartilhado
 - `dist/app.js`: renderização, navegação e interações do MarceloOS
+- `dist/assets/cv/`: currículos para download em francês e inglês
 
