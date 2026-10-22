@@ -35,10 +35,10 @@ window.PORTFOLIO = {
       gpa: "8,24 / 10", languages: ["PT · natif", "EN · C1", "FR · B1"]
     },
     files: [
-      { id: "profile", name: "README.txt", subtitle: "Profil système", icon: "▤", tone: "violet" },
-      { id: "work", name: "Work_History.app", subtitle: "Code en production", icon: ">_", tone: "cyan" },
-      { id: "research", name: "Research_AI.sys", subtitle: "ML & recherche", icon: "◉", tone: "amber" },
-      { id: "stack", name: "Stack_Matrix.bin", subtitle: "Outils & architecture", icon: "▦", tone: "violet" },
+      { id: "profile", name: "LISEZMOI.txt", subtitle: "Profil système", icon: "▤", tone: "violet" },
+      { id: "work", name: "Parcours_Pro.app", subtitle: "Code en production", icon: ">_", tone: "cyan" },
+      { id: "research", name: "Recherche_IA.sys", subtitle: "ML & recherche", icon: "◉", tone: "amber" },
+      { id: "stack", name: "Matrice_Tech.bin", subtitle: "Outils & architecture", icon: "▦", tone: "violet" },
       { id: "contact", name: "Contact.sh", subtitle: "Liaison directe", icon: "@", tone: "coral" }
     ],
     impacts: [{ value: "+35%", label: "débit des microservices" }, { value: "+120%", label: "leads qualifiés" }, { value: "−25%", label: "cycle de déploiement" }],
