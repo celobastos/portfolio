@@ -140,7 +140,7 @@ a { color: inherit; text-underline-offset: .22em; }
 .web-view { background: #f3f5f9; color: #101728; }
 .web-hero { min-height: 700px; display: grid; grid-template-columns: 1.25fr .75fr; align-items: end; gap: 70px; padding-block: 110px 80px; }
 .web-eyebrow { color: #177a6f; font: 800 .76rem/1.5 var(--mono); letter-spacing: .07em; text-transform: uppercase; }
-.web-eyebrow span { display: inline-block; width: 9px; height: 9px; margin-right: 8px; border-radius: 50%; background: #159f8a; box-shadow: 0 0 0 5px rgb(21 159 138 / 12%); }
+.web-eyebrow > span[aria-hidden="true"] { display: inline-block; width: 9px; height: 9px; margin-right: 8px; border-radius: 50%; background: #159f8a; box-shadow: 0 0 0 5px rgb(21 159 138 / 12%); }
 .web-hero h1, .web-section h2, .contact-section h2 { margin: 20px 0 0; font-size: clamp(3.4rem, 7.2vw, 6.8rem); line-height: .95; letter-spacing: -.065em; }
 .web-hero h1 em { color: #5459ce; font-style: normal; }
 .web-intro { align-self: end; padding-bottom: 8px; }
